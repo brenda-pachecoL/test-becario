@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(119, 195, 219);
+    padding: 0%;
+    margin: 0%;
+    background-color: #F5F8FD;
+}
+header ul{
+    display: flex;
+}
+li{
+    list-style:none;
+    margin: 10px;
+}
+header ul li a{
+    margin: 2px;
+    display: none;
+}
+.biografia{
+    background-color: #E4E9EF;
+}
+.biografia img{
+    border-radius: 10px;
+}
+@media (min-width: 600px){
+    body{
+        background-color: rgb(213, 149, 149);
+    }
+    li a{
+        display: block;
+    }
+}
