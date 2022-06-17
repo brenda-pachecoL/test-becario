@@ -142,7 +142,7 @@ footer ul li span{
     height: 40px;
     border: 1px solid transparent;
 }
-footer ul li :hover{
+footer ul li:hover{
     color:#668fd4;
     background-color: #F5F8FD;
     border-radius: 40px;    
