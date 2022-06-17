@@ -13,6 +13,7 @@ header{
 }
 .logo{
     height: 80%;
+    width: 40px;
 }
 .logo img{
     width: 100%;
@@ -126,7 +127,5 @@ footer ul li :hover{
 
 @media (min-width: 600px){
     body{
-    }
-        display: flex;
     }
 }
