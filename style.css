@@ -22,6 +22,12 @@ header{
     text-decoration: none;
     padding-right: 10px;
     color: black;
+    padding: 10px;
+    border-radius: 13px;
+}
+.menu a:hover{
+    background-color: rgb(21, 181, 230);
+    color: white;
 }
 
 header ul{
@@ -80,6 +86,10 @@ main{
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    border: 1px solid transparent;
+}
+.card:hover {
+    border: 1px solid rgb(21, 181, 230);   
 }
 .card img{
     max-width: 220px;
@@ -87,15 +97,35 @@ main{
     padding: 10px;
     border-radius:20px;
 }
+#contacto {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
 footer{
-    background-color: rgb(136, 190, 220);
+    background-color: rgb(161, 205, 228);
     display: flex;
+    justify-content: flex-start;
+}
+footer ul{
+    display: flex;
+
+}
+footer ul li span{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+footer ul li :hover{
+    color:#668fd4;
+    background-color: #F5F8FD;
+    border-radius: 40px;
+    
 }
 
 
 @media (min-width: 600px){
     body{
-        background-color: rgb(213, 149, 149);
     }
         display: flex;
     }
