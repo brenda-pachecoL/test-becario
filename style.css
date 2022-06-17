@@ -147,7 +147,10 @@ footer ul li :hover{
     background-color: #F5F8FD;
     border-radius: 40px;    
 }
-
+footer p{
+    margin: auto 0;
+    margin-right: 15px;
+}
 @media (min-width: 600px){
     body{
     }
