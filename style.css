@@ -52,12 +52,13 @@ main{
     min-height: 550px;
     min-width: 300px;
 }
+
 .biografia{
     height: 100%;
     background-color: #E4E9EF;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -85,7 +86,7 @@ main{
     width: fit-content;
     margin: 10px auto;
 }
-.carrousel{
+.contCard{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -118,11 +119,23 @@ main{
     text-align: center;
     min-width: 300px;
 }
+.contImg{
+    display: none;
+}
+.info ul{
+    padding: 0%;
+}
+.info div span{
+    margin-right: 5px;
+}
+.info a{
+    text-decoration: none;
+    color: black;
+}
 footer{
     background-color: rgb(161, 205, 228);
     display: flex;
     justify-content: space-between;
-    height: 10vh;
     width: 100%;
     min-width: 300px;
 }
@@ -152,6 +165,49 @@ footer p{
     margin-right: 15px;
 }
 @media (min-width: 600px){
-    body{
+   
+    .bibliografia{
+        display: flex;
+    }
+    .biografia div{
+        width: 400px;
+        margin: 0 10px;
+    }
+    #imgMobil{
+        display: none;
+        border: 1px solid black;
+    }
+    .imgDesktop{
+        display: block;
+    }
+    #contacto{
+        display: flex;
+        align-items: center;
+    }
+    .info{
+        width: 50%;
+        padding: 2%;
+    }
+    
+    .contImg{
+        display: block;
+        width: 44%;
+        
+    }
+    .contImg img{
+        width: 100%;
+    }
+}
+@media (min-width: 800px){
+    header ul{
+        display: flex;
+    }
+    header ul a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    header ul a span{
+        margin-right: 5px;
     }
 }
