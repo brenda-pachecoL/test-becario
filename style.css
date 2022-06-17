@@ -143,6 +143,9 @@ footer{
     width: 100%;
     min-width: 300px;
 }
+footer a{
+    color: black;
+}
 footer ul{
     display: flex;
     padding: 0%;
